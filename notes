@@ -1,0 +1,15 @@
+1.What is CSS and how to add css to html? 
+                    or
+What are the Types of CSS?
+
+# CSS Stands Cascading Stylesheet WHICH IS USED DESIGN HTML
+ there are 3 ways.
+ 
+    1.Inline CSS
+    2.Internal CSS
+    3.External CSS
+
+# In HTML we have 2 types of elements
+
+   1.Inline-level elements --->Will be displayed i the same line and css properties will be applied only to the content
+   2.Block-level Elements--->Always displays in diffrent line line and css properties will be applied to the Whole Block

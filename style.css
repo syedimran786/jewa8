@@ -1,4 +1,34 @@
-p
+/* p
 {
-        color: yellow;
+        background-color: red;
+        display: inline;
+
+}
+
+a
+{
+        background-color: red;
+        display: block;
+        
+}
+
+h1
+{
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+        
+} */
+
+body
+{
+     /* background-color: red;    */
+     /* background-image: linear-gradient(red,green,blue,yellow); */
+     /* background-image: radial-gradient(red,green,blue,yellow); */
+     background-image:radial-gradient(rgb(255, 0, 0,0.5),rgba(0, 128, 0,0.5),rgba(0, 0, 255,0.5),rgba(255, 255, 0,0.5)), url("https://media.istockphoto.com/photos/her-favourite-spot-to-trek-to-picture-id944543546?b=1&k=6&m=944543546&s=170667a&w=0&h=gS5FEz-j1bcsdfJXxsjm0u9GMzV-Z6vW2ZeaeVEaCo0=");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 100% 100%;
+     background-attachment: fixed;
 }
