@@ -1,0 +1,64 @@
+/* What are selectors */
+
+/* Selectors are used to select html elements based on tag name class name and id names */
+
+/* 1.Element Selector 
+    2.Group Selector
+    3.Class Selector
+    4.Generic Class Selector
+    5.Id Selector
+    6.Universal Selector
+    */
+
+
+/* Element Selector:We select only one type of element */
+  /* h1
+    {
+        font-family: algerian;
+        font-size: 100px;
+        color: red;
+    }
+
+p
+{
+    font-family: algerian;
+    font-size: 100px;
+    color: crimson;
+} */
+
+/* Group Selector:we select more than one element*/
+    /* a,h1
+    {
+        font-family: algerian;
+        font-size: 100px;
+        color: red;
+    } */
+/* Class Selector:Selects only the particular tags which is having class name */
+    /* h1.dinga
+    {
+        font-family: algerian;
+        font-size: 100px;
+        color: red;
+    } */
+
+/* Generic Class Selector:(99.99999%) selects all the tags which is having the class name */
+    .dinga
+    {
+        font-family: algerian;
+        font-size: 100px;
+        color: red;
+    }
+
+/* ID Selector: selects all the tags which is having the id name */
+    /* #dingi
+    {
+        color: rgb(30, 255, 0);
+        font-style: italic;
+    } */
+
+    /* Universal Selector */
+
+    *
+    {
+        color: crimson;
+    }
