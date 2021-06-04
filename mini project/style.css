@@ -1,0 +1,90 @@
+body,html
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.banner
+{
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://cdn.pixabay.com/photo/2016/03/09/09/22/meeting-1245776__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.navbar
+{
+    background-color: #efefef;
+    padding:19px 20px ;
+}
+
+.nav-item,.navbar-nav
+{
+    display: inline;
+}
+
+.navbar-nav
+{
+    margin-left: 177px;
+}
+
+.nav-link,.navbar-brand
+{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.nav-link
+{
+    margin-left: 40px;
+    transition:color .5s;
+}
+
+.nav-link:hover
+{
+    color: limegreen;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+}
+
+.navbar-brand span
+{
+    color: orange!important;
+    font-size: 28px;
+}
+
+.banner-card
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 45%;
+    border-top: 5px solid rgb(3, 179, 3);
+    margin:180px auto;
+    padding: 20px;
+}
+
+.banner-btn
+{
+    background-color: transparent;
+    border: 2px solid rgb(3, 179, 3);
+    padding: 13px 35px;
+    color: white;
+    border-radius: 10px;
+    margin-left:220px;
+    transition:background-color .8s ;
+    
+}
+
+.banner-btn:hover
+{
+    background-color: rgb(3, 179, 3);;
+}
