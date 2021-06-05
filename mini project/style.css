@@ -4,8 +4,10 @@ body,html
     padding: 0px;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #efefef;
 }
 
+/* Navbar Starts */
 
 .banner
 {
@@ -60,6 +62,7 @@ body,html
 {
     color: orange!important;
     font-size: 28px;
+    margin-right: 20px;
 }
 
 .banner-card
@@ -88,3 +91,114 @@ body,html
 {
     background-color: rgb(3, 179, 3);;
 }
+
+/* Navbar Ends */
+
+/* ipsam starts */
+
+    .ipsam
+    {
+        margin: 80px 60px;
+        background-color: rgba(255, 255, 255, 0.329);
+    }
+    .ipsam-content
+    {
+      
+        width:500px;
+        display: inline-block;
+        /* margin-left: 20px; */
+        padding: 50px;
+     
+    }
+    .ipsam-content h1
+    {
+        font-size: 45px;
+        color: rgb(109, 98, 98);
+    }
+
+    .ipsam-content ul
+    {
+        list-style-type:none;
+        margin-left: -38px;
+    }
+
+    .ipsam-content ul li
+    {
+        margin-top: 10px;
+    }
+    .fa-check-double
+    {
+        color: green;
+    }
+/* ipsam ends */
+
+/* Lorem Starts */
+
+.lorem
+{
+    margin: 0px 50px 50px 50px;
+    background-color: rgba(192, 184, 184, 0.116);
+    padding: 50px;
+   
+}
+
+.lorem-card
+{
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 120px 20px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    transition:background-color .8s, box-shadow .8s ;
+}
+.lorem-card:hover
+{
+    background-color: white;
+    box-shadow: 4px 4px 20px 6px rgba(128, 128, 128, 0.363)    ;
+}
+
+
+
+.fa-dribbble,.fa-file-invoice,.fa-tachometer
+{
+    font-size: 30px;
+    background-color: rgba(119, 136, 153, 0.096);
+    padding: 20px;
+    border-radius: 40px;
+}
+.fa-dribbble
+{
+    color: rgb(0, 162, 255);
+}
+.fa-file-invoice
+{
+    color: orangered;
+}
+.fa-tachometer
+{
+    color: crimson;
+}
+
+.lorem-card:hover .fa-dribbble
+{
+    background-color:rgb(0, 162, 255); 
+    color: white;
+}
+
+.lorem-card:hover .fa-file-invoice
+{
+    background-color:orangered; 
+    color: white;
+}
+.lorem-card:hover .fa-tachometer
+{
+    background-color:crimson;
+    color: white;
+}
+
+.lorem-content-margin
+{
+    margin-top: 30px;
+}
+/* Lorem ends */
