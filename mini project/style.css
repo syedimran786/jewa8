@@ -16,11 +16,16 @@ body,html
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
+    margin-top: -150px;
 }
 .navbar
 {
     background-color: #efefef;
     padding:19px 20px ;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-item,.navbar-nav
@@ -73,6 +78,8 @@ body,html
     border-top: 5px solid rgb(3, 179, 3);
     margin:180px auto;
     padding: 20px;
+    position: relative;
+    top: 250px;
 }
 
 .banner-btn
@@ -202,3 +209,111 @@ body,html
     margin-top: 30px;
 }
 /* Lorem ends */
+
+/* gallary starts */
+.gallary img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+    margin-top: 20px;
+    transition: opacity .6s,transform 1s;
+}
+.gallary img:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
+/* gallary ends */
+
+/* Client Starts */
+
+.clients
+{
+    margin: 80px 111px;
+}
+.clients h1
+{
+    text-align: center;
+
+}
+.clients hr
+{
+    margin-top: -2px;
+    margin-bottom: 28px;
+}
+.client-card
+{
+    height: 100px;
+    width: 280px;
+    border:1px solid  gray;
+    display: inline-block;
+    margin-left: -5px;
+}
+.client-card img
+{
+    width: 100px;
+    height: 50px;
+    margin:20px 80px;
+    transition:transform .8s;
+}
+.client-card:hover img
+{
+    transform: scale(1.3);
+}
+/* Client Ends */
+/* footer starts */
+.footer
+{
+    /* margin: 20px 83px; */
+    background-color: black;
+    color: white;
+}
+.footer li
+{
+    margin-left: -40px;
+    margin-top: 10px;   
+}
+.footer div
+{
+    width:250px;
+    padding: 50px 20px;
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+.footer ul
+{
+    list-style-type: none;
+}
+
+.fa-greater-than
+{
+    color: green;
+}
+
+.join input
+{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: none;
+}
+
+.join button
+{
+    padding: 7px 4px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -35px;
+    margin-left: 162px;
+    border: none;
+
+}
+/* footer Ends */
