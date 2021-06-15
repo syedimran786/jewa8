@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Form validation</title>
+
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body
+        {
+            background-color: #efefef;
+        }
+        .my-form
+        {
+            width: 500px;
+            height: 150px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+        }
+
+        form
+        {
+            width: 100%;
+            padding: 10px;
+        }
+        .my-form input 
+        {
+            padding: 10px;
+            width: 100%;
+            margin: 10px auto;
+            border-radius: 5px;
+            border:1px solid gray
+        }
+        .my-form button
+        {
+            width: 100%;
+            display: block;
+            background-color: crimson;
+            color: white;
+            padding: 8px 15px;
+        }
+        #errorMessage
+        {
+            color: red;
+            letter-spacing: 2px;
+            border:1px solid red;
+            width: 95%;
+            margin-top: 5px;
+           text-align: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="my-form">
+        <div id="errorMessage">
+            Invalid Mobile Number
+        </div>
+        <form action="./dynamicActions.html" onsubmit="return valid()" >
+            <input type="text" placeholder="Mobile" id="user">
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+    
+    <script src="./formValidation.js"></script>
+</body>
+</html>
